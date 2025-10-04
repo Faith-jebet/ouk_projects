@@ -17,7 +17,6 @@ obj GuessTheNumberGame (Game) {
     def process_guess(guess: int);
 }
 
-# Run the game
  with entry {
     game = GuessTheNumberGame();
     game.play();

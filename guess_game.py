@@ -20,7 +20,7 @@ class GuessTheNumberGame(Game):
             if guess.isdigit():
                 if self.process_guess(int(guess)):
                     print("Congratulations! You guessed correctly.")
-                    return  # Exit the game after a correct guess
+                    return 
             else:
                 print("That's not a valid number! Try again.")
 
